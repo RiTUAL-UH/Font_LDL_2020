@@ -18,7 +18,7 @@ You can find the Font dataset in the following repository:
 https://github.com/RiTUAL-UH/Font-prediction-dataset
 ```
 
-## Settings required for Emoji model:
+## Settings required for the Emoji model:
 <b> Emoji Model: </b> In this model, we use the Deep-Moji pre-trained model (Felbo et al., 2017) to generate emoji vectors by encoding the text into 2304-dimensional feature vectors. Our implementation is based on the Hugging Face Torch-moji implementation. 
 ```
 https://github.com/huggingface/torchMoji/blob/master/examples/encode_texts.py
