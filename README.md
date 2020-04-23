@@ -13,9 +13,9 @@ pickle
 
 ## Data
 You can find the Font dataset in the following repository then place it in "DATA/font" folder: 
-``
+```
 https://github.com/RiTUAL-UH/Font-prediction-dataset
-``
+```
 
 ## Settings required for each model:
 
