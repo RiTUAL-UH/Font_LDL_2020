@@ -1,0 +1,1 @@
+Model chechpoints will be stored in this folder.
