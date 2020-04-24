@@ -2,14 +2,14 @@
 This is a repository for the ACL 2020 paper: "Let Me Choose: From Verbal Context to Font Selection"
 
 ## Requirements
-torch==1.1<br>
-transformers<br>
-sklearn<br>
-pandas<br>
-numpy<br>
-NLTK<br>
-spacy<br>
-pickle<br>
+torch==1.1.0<br>
+transformers==2.8.0<br>
+sklearn==0.21.2<br>
+pandas==0.24.2<br>
+numpy==1.13.3<br>
+nltk==3.4.4<br>
+spacy==2.0.13<br>
+pickle==4.0<br>
 
 ## Data
 You can find the Font dataset in the following repository: 
