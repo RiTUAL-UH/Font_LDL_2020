@@ -22,6 +22,6 @@ https://github.com/RiTUAL-UH/Font-prediction-dataset
 ```
 https://github.com/huggingface/torchMoji/blob/master/examples/encode_texts.py
 ```
-You can find emoji vectors for the Font dataset <a href="Font_LDL/DATA/deepmoji_feats/">here</a>. 
+You can find emoji vectors for the Font dataset <a href="Font_LDL/DATA/deepmoji_feats/">Font_LDL/DATA/deepmoji_feats/</a>. 
 
 
