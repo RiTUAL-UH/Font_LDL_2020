@@ -2,6 +2,7 @@
 This is a repository for the ACL 2020 paper: "Let Me Choose: From Verbal Context to Font Selection"
 
 ## Requirements
+
 torch==1.1.0<br>
 transformers==2.8.0<br>
 sklearn==0.21.2<br>
@@ -14,13 +15,14 @@ pickle==4.0<br>
 ## Data
 You can find the Font dataset in the following repository: 
 ```
-https://github.com/RiTUAL-UH/Font-prediction-dataset
+<a href="https://github.com/RiTUAL-UH/Font-prediction-dataset">https://github.com/RiTUAL-UH/Font-prediction-dataset</a>
 ```
 
 ## Settings required for the Emoji model:
 <b> Emoji Model: </b> In this model, we use the Deep-Moji pre-trained model (Felbo et al., 2017) to generate emoji vectors by encoding the text into 2304-dimensional feature vectors. Our implementation is based on the Hugging Face Torch-moji implementation. 
 ```
-https://github.com/huggingface/torchMoji/blob/master/examples/encode_texts.py
+<a href="https://github.com/huggingface/torchMoji/blob/master/examples/encode_texts.py">https://github.com/huggingface/torchMoji/blob/master/examples/encode_texts.py</a>
+
 ```
 You can find emoji vectors for the Font dataset in <a href="Font_LDL/DATA/deepmoji_feats/">Font_LDL/DATA/deepmoji_feats/</a>.
 
