@@ -15,14 +15,13 @@ pickle==4.0<br>
 ## Data
 You can find the Font dataset in the following repository: 
 ```
-<a href="https://github.com/RiTUAL-UH/Font-prediction-dataset">https://github.com/RiTUAL-UH/Font-prediction-dataset</a>
+[https://github.com/RiTUAL-UH/Font-prediction-dataset](https://github.com/RiTUAL-UH/Font-prediction-dataset)
 ```
 
 ## Settings required for the Emoji model:
 <b> Emoji Model: </b> In this model, we use the Deep-Moji pre-trained model (Felbo et al., 2017) to generate emoji vectors by encoding the text into 2304-dimensional feature vectors. Our implementation is based on the Hugging Face Torch-moji implementation. 
 ```
-<a href="https://github.com/huggingface/torchMoji/blob/master/examples/encode_texts.py">https://github.com/huggingface/torchMoji/blob/master/examples/encode_texts.py</a>
-
+[href="https://github.com/huggingface/torchMoji/blob/master/examples/encode_texts.py](href="https://github.com/huggingface/torchMoji/blob/master/examples/encode_texts.py)
 ```
 You can find emoji vectors for the Font dataset in <a href="Font_LDL/DATA/deepmoji_feats/">Font_LDL/DATA/deepmoji_feats/</a>.
 
