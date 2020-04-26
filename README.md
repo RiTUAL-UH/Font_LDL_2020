@@ -13,17 +13,11 @@ spacy==2.0.13<br>
 pickle==4.0<br>
 
 ## Data
-You can find the Font dataset in the following repository: 
-```
-https://github.com/RiTUAL-UH/Font-prediction-dataset
-```
+You can find the Font dataset in the following repository: https://github.com/RiTUAL-UH/Font-prediction-dataset
 
 ## Settings required for the Emoji model:
-<b> Emoji Model: </b> In this model, we use the Deep-Moji pre-trained model (Felbo et al., 2017) to generate emoji vectors by encoding the text into 2304-dimensional feature vectors. Our implementation is based on the Hugging Face Torch-moji implementation. 
-```
-https://github.com/huggingface/torchMoji/blob/master/examples/encode_texts.py
-```
-You can find emoji vectors for the Font dataset in <a href="Font_LDL/DATA/deepmoji_feats/">Font_LDL/DATA/deepmoji_feats/</a>.
+<b> Emoji Model: </b> In this model, we use the Deep-Moji pre-trained model (Felbo et al., 2017) to generate emoji vectors by encoding the text into 2304-dimensional feature vectors. Our implementation is based on the [Hugging Face Torch-moji implementation](https://github.com/huggingface/torchMoji/blob/master/examples/encode_texts.py). 
+You can find emoji vectors for the Font dataset <a href="Font_LDL/DATA/deepmoji_feats/">here</a>. 
 
 ## Instructions for running the code
 - In <a href="Font_LDL/config.py">config.py</a> select the model and configurations. `base_model` values are `"glove"`, `"bert_seq_classification"`, `"emoji"` and `"NRCfeat"`. (For more information about the details of the models check out the ACL paper)
@@ -39,9 +33,6 @@ You can find emoji vectors for the Font dataset in <a href="Font_LDL/DATA/deepmo
   year={2020}
 }
 ```
-
-
-
 
 
 
