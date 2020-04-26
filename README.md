@@ -3,6 +3,7 @@ This is a repository for the ACL 2020 paper: "Let Me Choose: From Verbal Context
 
 ## Requirements
 
+python==3.6.9<br>
 torch==1.1.0<br>
 transformers==2.8.0<br>
 sklearn==0.21.2<br>
