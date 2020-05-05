@@ -1,5 +1,7 @@
+
 # Font LDL 2020
 This is a repository for our ACL 2020 paper [Let Me Choose: From Verbal Context to Font Selection](https://arxiv.org/abs/2005.01151).
+
 
 ## Requirements
 
