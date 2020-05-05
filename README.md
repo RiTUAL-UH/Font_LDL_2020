@@ -1,5 +1,5 @@
 # Font_LDL_2020
-This is a repository for the ACL 2020 paper: "Let Me Choose: From Verbal Context to Font Selection"
+This is a repository for the ACL 2020 paper: <a href="https://arxiv.org/abs/2005.01151">"Let Me Choose: From Verbal Context to Font Selection"</a>
 
 ## Requirements
 
