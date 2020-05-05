@@ -1,17 +1,9 @@
-# Font_LDL_2020
-This is a repository for the ACL 2020 paper: "Let Me Choose: From Verbal Context to Font Selection"
+# Font LDL 2020
+This is a repository for our ACL 2020 paper [Let Me Choose: From Verbal Context to Font Selection](https://arxiv.org/abs/2005.01151).
 
 ## Requirements
 
-python==3.6.9<br>
-torch==1.1.0<br>
-transformers==2.8.0<br>
-sklearn==0.21.2<br>
-pandas==0.24.2<br>
-numpy==1.13.3<br>
-nltk==3.4.4<br>
-spacy==2.0.13<br>
-pickle==4.0<br>
+python==3.6.9 and `pip install -r requirements.txt`
 
 ## Data
 You can find the Font dataset in the following repository: https://github.com/RiTUAL-UH/Font-prediction-dataset
@@ -26,6 +18,9 @@ You can find emoji vectors for the Font dataset <a href="Font_LDL/DATA/deepmoji_
 - Use `python main.py` for running the model. 
 
 ## Citation
+
+If you use this code in your work, please cite our [paper](https://arxiv.org/abs/2005.01151) as follows:
+
 ```
 @inproceedings{shirani2020font,
   title={Let Me Choose: From Verbal Context to Font Selection},
@@ -34,6 +29,3 @@ You can find emoji vectors for the Font dataset <a href="Font_LDL/DATA/deepmoji_
   year={2020}
 }
 ```
-
-
-
