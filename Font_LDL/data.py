@@ -15,7 +15,7 @@ random.seed(config.random_random_seed)
 def read_text_embeddings(filename):
     embeddings = []
     word2index = {}
-    with open(filename, 'r') as f:
+    with open(filename, 'r', encoding='utf-8') as f:
         for i, line in enumerate(f):
             line = line.strip().split()
             word2index[line[0]] = i
