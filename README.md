@@ -17,6 +17,7 @@ You can find emoji vectors for the Font dataset <a href="Font_LDL/DATA/deepmoji_
 ## Instructions for running the code
 - In <a href="Font_LDL/config.py">config.py</a> select the model and configurations. `base_model` values are `"glove"`, `"bert_seq_classification"`, `"emoji"` and `"NRCfeat"`. (For more information about the details of the models check out the ACL paper)
 - Change `train` and `test` to `True` for training and testing respectively. 
+- Download http://nlp.stanford.edu/data/glove.6B.zip and unzip `glove.6B.zip` to `EMBEDDINGS/glove.6B/glove.6B.zip`.
 - Use `python main.py` for running the model. 
 
 ## Citation
