@@ -1,8 +1,9 @@
 torch==1.1.0
 transformers==2.8.0
-sklearn==0.21.2
+scikit-learn==0.21.2
+tensorflow==1.14.0
 pandas==0.24.2
 numpy==1.13.3
 nltk==3.4.4
 spacy==2.0.13
-pickle==4.0
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.0.0/en_core_web_sm-2.0.0.tar.gz#egg=en_core_web_sm==2.0.0
