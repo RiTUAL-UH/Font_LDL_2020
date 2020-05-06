@@ -15,9 +15,12 @@ You can find the Font dataset in the following repository: https://github.com/Ri
 You can find emoji vectors for the Font dataset <a href="Font_LDL/DATA/deepmoji_feats/">here</a>. 
 
 ## Instructions for running the code
+- `pip install -r requirements.txt`
+- `python -m nltk.downloader wordnet`
+- Download http://nlp.stanford.edu/data/glove.6B.zip and unzip `glove.6B.100d.txt` (part of `glove.6B.zip`) to `EMBEDDINGS/glove.6B/glove.6B.100d.txt`.
+- Download http://sentiment.nrc.ca/lexicons-for-research/NRC-Sentiment-Emotion-Lexicons.zip, then unzip `NRC-Sentiment-Emotion-Lexicons/NRC-Emotion-Lexicon-v0.92/*` and `NRC-Sentiment-Emotion-Lexicons/NRC-VAD-Lexicon/*` to `DATA/emotion_lexicon`.
 - In <a href="Font_LDL/config.py">config.py</a> select the model and configurations. `base_model` values are `"glove"`, `"bert_seq_classification"`, `"emoji"` and `"NRCfeat"`. (For more information about the details of the models check out the ACL paper)
 - Change `train` and `test` to `True` for training and testing respectively. 
-- Download http://nlp.stanford.edu/data/glove.6B.zip and unzip `glove.6B.zip` to `EMBEDDINGS/glove.6B/glove.6B.zip`.
 - Use `python main.py` for running the model. 
 
 ## Citation
